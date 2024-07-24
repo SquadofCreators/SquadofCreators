@@ -1,4 +1,4 @@
-# Squad of Creators 👋🏼
+# Squad of Creators 👋
 
 Welcome to Squad of Creators! We are a dynamic and innovative AI-based freelancing team dedicated to bringing cutting-edge solutions to your projects. Our team is comprised of experts in artificial intelligence, data science, machine learning, web development, and design, all united by a passion for creativity and technology.
 
