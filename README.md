@@ -40,9 +40,8 @@ Join the growing list of satisfied clients who have experienced the difference t
 
 Ready to embark on a journey of innovation and success? Get in touch with Squad of Creators today to discuss your project and discover how we can help you achieve your goals.
 
-**Email**: contact@squadofcreators.com  
-**Phone**: +123-456-7890  
-**Address**: 123 Innovation Drive, Tech City, AI State, 56789
+**Email**: squadofcreators@gmail.com  
+**Address**: Coimbatore, Tamilnadu.
 
 Follow us on [LinkedIn](https://www.linkedin.com), and [Twitter](https://www.twitter.com) to stay updated with our latest projects and insights.
 
