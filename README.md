@@ -121,7 +121,7 @@
   <li><a href="https://instagram.com">Instagram</a></li>
 </ul>
 
-<p align="center" style="border-radius: 20px;">
+<p align="center" style="border-radius: 10%;">
   <img src="./assets/Google_Form_Header_Image.png" alt="Creative Work">
 </p>
 
