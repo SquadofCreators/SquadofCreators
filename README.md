@@ -122,7 +122,7 @@
 </ul>
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x200.png?text=Creativity+and+Technology" alt="Creative Work">
+  <img src="./assets/Google_Form_Header_Image.png" alt="Creative Work">
 </p>
 
 <p align="center">
