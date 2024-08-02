@@ -56,8 +56,8 @@
 <table style="width: 100%; table-layout: fixed;">
       <tr align="center">
         <th>Figma</th>
-        <th>Adobe Illustrator</th>
-        <th>Adobe Photoshop</th>
+        <th>Illustrator</th>
+        <th>Photoshop</th>
         <th>Canva</th>
       </tr>
       <tr align="center">
