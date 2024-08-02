@@ -116,8 +116,7 @@
 
 <p>Stay updated with our latest projects and insights:</p>
 <ul>
-  <li><a href="https://www.linkedin.com">LinkedIn</a></li>
-  <li><a href="https://twitter.com">Twitter</a></li>
+  <li><a href="https://www.linkedin.com/company/squad-of-creators/">LinkedIn</a></li>
   <li><a href="https://instagram.com">Instagram</a></li>
 </ul>
 
