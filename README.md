@@ -70,6 +70,10 @@
           title="illustrator" alt="illustrator" width="55" height="55"/>
         </td>
         <td>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" 
+          title="Photoshop" alt="Photoshop" width="55" height="55"/>
+        </td>
+        <td>
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg" 
           title="Canva" alt="Canva" width="55" height="55"/>
         </td>
