@@ -54,14 +54,26 @@
 </ul>
 
 <table style="width: 100%; table-layout: fixed;">
-    <tr align="center">
-    <th>Python</th>
-    <th>Flask</th>
-    </tr>
-    <tr align="center">
-    <td><img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="python" alt="python" width="55" height="55"/></td>
-    <td><img src="https://github.com/devicons/devicon/blob/master/icons/flask/flask-original.svg" title="flask" alt="flask" width="55" height="55"/></td>
-    </tr>
+      <tr align="center">
+        <th>Figma</th>
+        <th>Adobe Illustrator</th>
+        <th>Adobe Photoshop</th>
+        <th>Canva</th>
+      </tr>
+      <tr align="center">
+        <td>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
+          title="Figma" alt="Figma" width="55" height="55" />
+        </td>
+        <td>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/illustrator/illustrator-plain.svg" 
+          title="illustrator" alt="illustrator" width="55" height="55"/>
+        </td>
+        <td>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg" 
+          title="Canva" alt="Canva" width="55" height="55"/>
+        </td>
+       </tr>
 </table>
 
 <h3>Web Development 🌐</h3>
