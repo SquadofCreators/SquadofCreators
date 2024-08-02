@@ -25,15 +25,25 @@
 </ul>
 
 <table style="width: 100%; table-layout: fixed;">
-    <tr align="center">
-    <th>Python</th>
-    <th>Flask</th>
-    </tr>
-    <tr align="center">
-    <td><img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="python" alt="python" width="55" height="55"/></td>
-    <td><img src="https://github.com/devicons/devicon/blob/master/icons/flask/flask-original.svg" title="flask" alt="flask" width="55" height="55"/></td>
-    </tr>
-</table>
+      <tr align="center">
+        <th>Tensorflow</th>
+        <th>Keras</th>
+        <th>Numpy</th>
+        <th>Pandas</th>
+        <th>Matplotlib</th>
+        <th>MySQL</th>
+        <th>LLMs</th>
+      </tr>
+      <tr align="center">
+        <td><img src="https://github.com/devicons/devicon/blob/master/icons/tensorflow/tensorflow-original.svg" title="Tensorflow" alt="Tensorflow" width="55" height="55"/></td>
+        <td><img src="https://github.com/devicons/devicon/blob/master/icons/keras/keras-original.svg" title="Keras" alt="Keras" width="55" height="55"/></td>
+        <td><img src="https://github.com/devicons/devicon/blob/master/icons/numpy/numpy-original.svg" title="Numpy" alt="Numpy" width="55" height="55"/></td>
+        <td><img src="https://github.com/devicons/devicon/blob/master/icons/pandas/pandas-original.svg" title="Pandas" alt="Pandas" width="55" height="55"/></td>
+        <td><img src="https://github.com/devicons/devicon/blob/master/icons/matplotlib/matplotlib-original.svg" title="Matplotlib" alt="Matplotlib" width="55" height="55"/></td>
+        <td><img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" title="MySQL" alt="MySQL" width="55" height="55"/></td>
+        <td><img src="https://cdn-icons-png.flaticon.com/512/16806/16806660.png" title="LLMs" alt="LLMs" width="55" height="55"/></td>
+      </tr>
+    </table>
 
 <h3>UI/UX Designs 🎨</h3>
 <ul>
