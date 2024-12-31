@@ -44,13 +44,13 @@ const Navbar = () => {
           <div className="hidden md:flex space-x-8">
 
             {navbarLinks.map((link) => (
-              <a
+              <Link
                 key={link.name}
                 href={link.link}
                 className="text-gray-500 hover:text-indigo-600 font-medium"
               >
                 {link.name}
-              </a>
+              </Link>
             ))}
           </div>
 
@@ -84,13 +84,13 @@ const Navbar = () => {
         <div className="md:hidden border-2 border-gray-400/30 rounded-lg m-1 bg-white shadow-lg transition-transform duration-300">
             <div className="px-2 py-8 sm:px-3 flex flex-col items-center justify-center gap-4 transition-all duration-300">
               {navbarLinks.map((link) => (
-                <a
+                <Link
                   key={link.name}
                   href={link.link}
                   className="text-gray-500 hover:text-indigo-600 font-medium"
                 >
                   {link.name}
-                </a>
+                </Link>
               ))}
 
               <button
