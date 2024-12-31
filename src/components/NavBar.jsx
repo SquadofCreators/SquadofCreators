@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { RiMoonFill, RiSunFill, RiMenuFill, RiCloseFill } from "react-icons/ri";
 import logo from '../assets/Logo.svg';
@@ -13,6 +13,17 @@ const Navbar = () => {
     setDarkMode(!isDarkMode);
     document.documentElement.classList.toggle("dark");
   };
+
+  useEffect(() => {
+        if (isMobileMenuOpen) {
+          document.body.style.overflow = 'hidden';
+        } else {
+          document.body.style.overflow = 'auto';
+        }
+        return () => {
+          document.body.style.overflow = 'auto';
+        };
+      }, [isMobileMenuOpen]);
 
   return (
     <nav className="fixed top-0 w-full z-10 md:flex md:justify-center md:shadow-md px-2 md:px-0 bg-white">
