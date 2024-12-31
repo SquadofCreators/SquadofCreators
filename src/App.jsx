@@ -27,7 +27,6 @@ function App() {
         <Route path='/privacy-policy' element={<PrivacyPolicy />} />
         <Route path='/terms-of-service' element={<TermsAndServices />} />
 
-
         <Route path='*' element={<NotFound />} />
       </Routes>
     </>
