@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    scroll-behavior: smooth;
+}
+
+.slick-slider{
+    @apply mt-12
+}
+.slick-list .slick-track{
+    @apply flex gap-8 pr-6
+
+}
+.slick-slider button::before{
+    @apply text-indigo-600
+}
+.slick-slider .slick-dots{
+    @apply -bottom-10
+}
