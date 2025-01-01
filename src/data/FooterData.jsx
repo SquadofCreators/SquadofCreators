@@ -64,18 +64,18 @@ export const companyLinks = [
         name: "Our Team",
         link: "/our-team",
     },
-    {
-        name: "Contact Us",
-        link: "/contact-us",
-    }
+    // {
+    //     name: "Contact Us",
+    //     link: "/contact-us",
+    // }
 ];
 
 // Contact Links
 export const contactLinks = [
-    {
-        name: "Support",
-        link: "/support",
-    },
+    // {
+    //     name: "Support",
+    //     link: "/support",
+    // },
     {
         name: "Collaboration",
         link: "/grow-with-us",

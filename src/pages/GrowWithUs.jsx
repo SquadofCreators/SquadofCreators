@@ -6,6 +6,12 @@ import { RiCheckboxCircleLine, RiArrowLeftSLine } from "react-icons/ri";
 import Footer from "../components/Footer";
 
 const GrowWithUs = () => {
+
+    // Scroll to the top of the page when the component mounts
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     // breeadcrumb links

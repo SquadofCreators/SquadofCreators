@@ -1,5 +1,5 @@
-import React from 'react';
-import { FaLinkedin, FaTwitter, FaGithub } from 'react-icons/fa';
+import React,{useEffect} from 'react';
+import { FaLinkedin, FaEnvelope, FaGithub } from 'react-icons/fa';
 import PageHeader from '../components/PageHeader';
 import teamData from '../data/TeamData';
 import Footer from '../components/Footer';
@@ -39,12 +39,18 @@ const teamMembers = [
 
 function Team() {
 
+    // Scroll to the top of the page when the component mounts
+    React.useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+
     const breadcrumbs = [
         { label: 'Home', link: '/', current: false },
         { label: 'Team', link: null, current: true },
       ];
 
   return (
+
     <div>
         {/* Header Section */}
         <PageHeader title="Our Team" description="Meet the talented individuals who make it all happen." breadcrumbs={breadcrumbs}/>
@@ -80,14 +86,14 @@ function Team() {
                         <FaLinkedin size={20} />
                     </a>
                     )}
-                    {member.socials.twitter && (
+                    {member.socials.email && (
                     <a
-                        href={member.socials.twitter}
+                        href={`mailto:${member.socials.email}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-600 hover:text-indigo-600"
                     >
-                        <FaTwitter size={20} />
+                        <FaEnvelope size={20} />
                     </a>
                     )}
                     {member.socials.github && (

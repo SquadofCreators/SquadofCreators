@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import { RiMoonFill, RiSunFill, RiMenuFill, RiCloseFill } from "react-icons/ri";
 import logo from '../assets/Logo.svg';
 import { navbarLinks } from "../data/NavbarData";
-import { Link } from 'react-scroll';
+import { Link as Scroll } from 'react-scroll';
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
 
@@ -35,31 +36,31 @@ const Navbar = () => {
                 src={logo} alt=""
                 className="w-6 h-w-6"
             />
-            <a href="/" className="text-xl md:text-2xl font-extrabold text-indigo-600">
+            <Link to="/" className="text-xl md:text-2xl font-extrabold text-indigo-600">
                 Team SoC
-            </a>
+            </Link>
           </div>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">
 
             {navbarLinks.map((link) => (
-              <Link
+              <Scroll
                 key={link.name}
                 to={link.link}
-                className="text-gray-500 hover:text-indigo-600 font-medium"
+                className="text-gray-500 hover:text-indigo-600 font-medium cursor-pointer"
               >
                 {link.name}
-              </Link>
+              </Scroll>
             ))}
           </div>
 
           <div className="hidden md:flex items-center space-x-4">
             <Link
-              className="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-in6text-indigo-600/90"
+              className="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-in6text-indigo-600/90 cursor-pointer"
               to="/contact-us"
             >
-              Get Started
+              Contact Us
             </Link>
 
             {/* <button onClick={toggleDarkMode} className="text-xl p-2 rounded-full focus:outline-none text-gray-600">
@@ -84,20 +85,20 @@ const Navbar = () => {
         <div className="md:hidden border-2 border-gray-400/30 rounded-lg m-1 bg-white shadow-lg transition-transform duration-300">
             <div className="px-2 py-8 sm:px-3 flex flex-col items-center justify-center gap-4 transition-all duration-300">
               {navbarLinks.map((link) => (
-                <Link
+                <Scroll
                   key={link.name}
                   to={link.link}
                   className="text-gray-500 hover:text-indigo-600 font-medium"
                 >
                   {link.name}
-                </Link>
+                </Scroll>
               ))}
 
               <Link
                 className="px-4 py-2 mt-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700"
                 to="/contact-us"
               >
-                Get Started
+                Contact Us
               </Link>
                 
             </div>

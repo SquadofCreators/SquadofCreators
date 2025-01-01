@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from '../assets/Logo.svg';
 import { Link } from 'react-router-dom';
 import  { socialMediaLinks, solutionsLinks, contactLinks, companyLinks } from '../data/FooterData';
+import { servicesData } from '../data/ServicesData';
 
 function Footer() {
   // Scroll to top when a link is clicked
@@ -29,14 +30,14 @@ function Footer() {
           <div>
             <h3 className="text-lg font-semibold text-white">Solutions</h3>
             <ul className="mt-4 space-y-4">
-              {solutionsLinks.map((link) => (
-                <li key={link.name}>
+              {servicesData.map((link) => (
+                <li key={link.title}>
                   <Link
                     to={link.link}
                     className="text-gray-400/80 hover:text-indigo-500"
                     onClick={handleScrollToTop}
                   >
-                    {link.name}
+                    {link.title}
                   </Link>
                 </li>
               ))}

@@ -5,6 +5,7 @@ import { FaUserAstronaut } from "react-icons/fa";
 import { MdOutlineTimeline } from "react-icons/md";
 
 function AboutUs() {
+
   return (
     <section id='aboutUs' className='max-w-screen-lg w-5/6 flex flex-col items-center justify-center py-6 md:py-20'>
         <div className='flex flex-col items-center justify-center'> 
@@ -41,7 +42,12 @@ function AboutUs() {
                 </div>
             </div>
             
-            <Link to="/about-us" className="flex items-center justify-center w-max mt-2 md:mt-4 border border-indigo-600 text-indigo-600 hover:bg-indigo-600 hover:text-white rounded-full px-6 py-3 text-sm md:text-lg font-semibold transition-colors duration-300">
+            <Link 
+                to="/about-us" 
+                className="flex items-center justify-center w-max mt-2 md:mt-4 border border-indigo-600 text-indigo-600 hover:bg-indigo-600 hover:text-white rounded-full px-6 py-3 text-sm md:text-lg font-semibold transition-colors duration-300"
+
+            >
+
                 Our Story <MdOutlineTimeline className="ml-2" />
             </Link>
         </div>

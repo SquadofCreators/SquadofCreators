@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import { RiArrowRightLine } from "react-icons/ri";
 
 function ServiceCard({
@@ -16,12 +17,12 @@ function ServiceCard({
             <h2 className="mb-2 md:text-xl font-bold text-gray-800">{title}</h2>
             <p className="text-sm md:text-base text-gray-400 leading-normal">{description}</p>
         </div>
-        <a 
-            href={link} 
+        <Link 
+            to={link}
             className="mt-6 text-indigo-600 hover:translate-x-2 transition-all duration-300"
         >
             Learn More <RiArrowRightLine className="inline-block ml-2" />
-        </a>
+        </Link>
     </div>
   )
 }

@@ -11,9 +11,9 @@ const teamData = [
     role: "AI/ML & Web Developer",
     image: memberImg1,
     socials: {
-      linkedin: 'https://linkedin.com/in/johnsmith',
-      twitter: 'https://twitter.com/johnsmith',
-      github: 'https://github.com/johnsmith',
+      linkedin: 'https://www.linkedin.com/in/praveensiva77/',
+      email: 'praveensiva0820@gmail.com',
+      github: 'https://github.com/PraveenSiva77',
     },
   },
   {
@@ -22,9 +22,9 @@ const teamData = [
     role: "AI/ML & Web Developer",
     image: memberImg2,
     socials: {
-      linkedin: 'https://linkedin.com/in/johnsmith',
-      twitter: 'https://twitter.com/johnsmith',
-      github: 'https://github.com/johnsmith',
+      linkedin: 'https://www.linkedin.com/in/sibisiddharths/',
+      email: 'sibisiddharth8@gmail.com',
+      github: 'https://github.com/sibisiddharth8',
     },
   },
   {
@@ -33,9 +33,9 @@ const teamData = [
     role: "AI/ML Developer",
     image: memberImg3,
     socials: {
-      linkedin: 'https://linkedin.com/in/johnsmith',
-      twitter: 'https://twitter.com/johnsmith',
-      github: 'https://github.com/johnsmith',
+      linkedin: 'https://www.linkedin.com/in/srinivasanr07/',
+      email: 'rockysrini70@gmail.com',
+      github: 'https://github.com/srinivasanr11',
     },
   },
   {
@@ -44,9 +44,9 @@ const teamData = [
     role: "Software Developer",
     image: memberImg4,
     socials: {
-      linkedin: 'https://linkedin.com/in/johnsmith',
-      twitter: 'https://twitter.com/johnsmith',
-      github: 'https://github.com/johnsmith',
+      linkedin: 'https://www.linkedin.com/in/surya-btechi/',
+      email: 'saisurya7860@gmail.com',
+      github: 'https://github.com/saisurya7860',
     },
   },
   {
@@ -55,9 +55,9 @@ const teamData = [
     role: "Data Scientist",
     image: memberImg5,
     socials: {
-      linkedin: 'https://linkedin.com/in/johnsmith',
-      twitter: 'https://twitter.com/johnsmith',
-      github: 'https://github.com/johnsmith',
+      linkedin: 'https://www.linkedin.com/in/arivu-mani-b3069a293/',
+      email: '',
+      github: '',
     },
   },
 ];

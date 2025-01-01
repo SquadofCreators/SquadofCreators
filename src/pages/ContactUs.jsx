@@ -7,6 +7,11 @@ import { contactUsData } from '../data/ContactUsData';
 
 const ContactUs = () => {
 
+    // Scroll to the top of the page when the component mounts
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     const breadcrumbs = [
         { label: "Home", link: "/" },
         { label: "Contact Us", link: null },
@@ -94,11 +99,11 @@ const ContactUs = () => {
             {/* Google Map (or Placeholder) */}
             <div className="bg-white shadow-md rounded-lg">
                 <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509869!2d144.9537363155259!3d-37.817209742021824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d5df1b1b1f7%3A0x5045675218ce6e0!2sCreative%20Lane%2C%20Innovation%20City%20IN%2056789!5e0!3m2!1sen!2sin!4v1630925345717!5m2!1sen!2sin"
-                className="w-full h-64 rounded-lg"
-                allowFullScreen=""
-                loading="lazy"
-                title="Location"
+                    src={contactUsData[2].link}
+                    className="w-full h-64 rounded-lg"
+                    allowFullScreen=""
+                    loading="lazy"
+                    title="Location"
                 ></iframe>
             </div>
             </div>

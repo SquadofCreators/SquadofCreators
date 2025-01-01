@@ -4,7 +4,7 @@ import VideoDialog from "./VideoDialog";
 import CustomBadge from "../CustomBadge";
 import { RiCloseFill } from "react-icons/ri";
 import heroVideoData from "../../data/HeroData";
-
+import { Link } from "react-router-dom";
 
 const Hero = () => {
 
@@ -47,11 +47,6 @@ const [isOpen, setIsOpen] = useState(false);
     })
   };
 
-  // Handle Grow With Us Button
-  const handleGrowWithUs = () => {
-    window.location.href = "/grow-with-us";
-  };
-
   useEffect(() => {
       if (isOpen) {
         document.body.style.overflow = 'hidden';
@@ -90,12 +85,12 @@ const [isOpen, setIsOpen] = useState(false);
             Get Started
           </button>
 
-          <button
+          <Link 
+            to="/grow-with-us"
             className="w-max px-6 py-3 text-sm md:text-lg bg-white text-gray-600 border-2 hover:border-indigo-600 rounded-full hover:shadow-md transition-colors duration-300"
-            onClick={handleGrowWithUs}
           >
             Grow with Us
-          </button>
+          </Link>
           
         </div>
       </div>  

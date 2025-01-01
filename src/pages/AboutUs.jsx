@@ -10,6 +10,11 @@ import Footer from '../components/Footer';
 import { vmvData, aboutVideoData, aboutStatsData } from '../data/AboutUsData';
 
 const AboutUs = () => {
+
+      React.useEffect(() => {
+          window.scrollTo(0, 0);
+      }, []);
+
   const breadcrumbs = [
     { label: "Home", link: "/" },
     { label: "About Us", link: null },

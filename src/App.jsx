@@ -11,6 +11,7 @@ import Team from './pages/Team'
 import Support from './pages/Support'
 import PrivacyPolicy from './pages/PrivacyPolicy'
 import TermsAndServices from './pages/TermsAndServices'
+import ServicesSingle from './pages/ServicesSingle'
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
         <Route path='/support' element={<Support />} />
         <Route path='/privacy-policy' element={<PrivacyPolicy />} />
         <Route path='/terms-of-service' element={<TermsAndServices />} />
+        <Route path='/services/:id' element={<ServicesSingle />} />
 
         <Route path='*' element={<NotFound />} />
       </Routes>

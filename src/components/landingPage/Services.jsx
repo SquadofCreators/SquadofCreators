@@ -2,34 +2,10 @@ import React from 'react'
 import CustomBadge from '../CustomBadge'
 import ServiceCard from '../ServiceCard';
 import { PiShootingStarFill } from "react-icons/pi";
-import { IoIosDesktop } from "react-icons/io";
-import { RiSparkling2Line } from "react-icons/ri";
-import { TbDeviceMobile } from "react-icons/tb";
-import { MdDesignServices } from "react-icons/md";
+
+import { servicesData } from '../../data/ServicesData'
 
 function Services() {
-
-  // Services Data [icon, title, description, link]
-  const servicesData = [
-    {
-      icon: <RiSparkling2Line className="text-indigo-600"/>,
-      title: "AI-Powered Tech",
-      description: "Harness the power of Artificial Intelligence and Machine Learning to create transformative technology.",
-      link: "/ai-powered-tech"
-    },
-    {
-      icon: <IoIosDesktop className="text-indigo-600"/>,
-      title: "Web Development",
-      description: "We build websites that are fast, secure, and easy to use. We use the latest technologies to ensure that your website is always up to date.",
-      link: "/web-development"
-    },
-    {
-      icon: <MdDesignServices className="text-indigo-600"/>,
-      title: "UI Designing",
-      description: "We design intuitive, modern, and user-friendly interfaces that captivate and engage your audience.",
-      link: "/ui-designing"
-    }
-  ];
 
   return (
     <section id='services' className='max-w-screen-lg w-5/6 flex flex-col items-center justify-center py-6 md:py-20'>
@@ -59,6 +35,7 @@ function Services() {
             description={service.description}
             link={service.link}
           />
+      
         ))}
       </div>
     </section>
