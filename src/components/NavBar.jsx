@@ -46,7 +46,7 @@ const Navbar = () => {
             {navbarLinks.map((link) => (
               <Link
                 key={link.name}
-                href={link.link}
+                to={link.link}
                 className="text-gray-500 hover:text-indigo-600 font-medium"
               >
                 {link.name}
@@ -86,19 +86,19 @@ const Navbar = () => {
               {navbarLinks.map((link) => (
                 <Link
                   key={link.name}
-                  href={link.link}
+                  to={link.link}
                   className="text-gray-500 hover:text-indigo-600 font-medium"
                 >
                   {link.name}
                 </Link>
               ))}
 
-              <button
+              <Link
                 className="px-4 py-2 mt-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700"
-                onClick={() => alert("Contact Form Placeholder")}
+                to="/contact-us"
               >
                 Get Started
-              </button>
+              </Link>
                 
             </div>
         </div>
