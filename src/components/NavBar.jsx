@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import { RiMoonFill, RiSunFill, RiMenuFill, RiCloseFill } from "react-icons/ri";
 import logo from '../assets/Logo.svg';
 import { navbarLinks } from "../data/NavbarData";
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
 

@@ -6,19 +6,19 @@ export const navbarLinks = [
     },
     {
         name: 'About Us',
-        link: '#aboutUs'
+        link: 'aboutUs'
     },
     {
         name: 'Services',
-        link: '#services'
+        link: 'services'
     },
     {
         name: 'Products',
-        link: '#products'
+        link: 'products'
     },
     {
         name: 'Team',
-        link: '#team'
+        link: 'team'
     }
 
 ];
