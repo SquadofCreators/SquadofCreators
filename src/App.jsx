@@ -12,6 +12,7 @@ import Support from './pages/Support'
 import PrivacyPolicy from './pages/PrivacyPolicy'
 import TermsAndServices from './pages/TermsAndServices'
 import ServicesSingle from './pages/ServicesSingle'
+import GrowWithUsTC from './pages/GrowWithUsTC'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
         <Route path='/privacy-policy' element={<PrivacyPolicy />} />
         <Route path='/terms-of-service' element={<TermsAndServices />} />
         <Route path='/services/:id' element={<ServicesSingle />} />
+        <Route path='/grow-with-us-tc' element={<GrowWithUsTC />} />
 
         <Route path='*' element={<NotFound />} />
       </Routes>

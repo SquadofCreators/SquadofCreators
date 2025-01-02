@@ -1,4 +1,3 @@
-// Navbar links
 export const navbarLinks = [
     {
         name: 'Home',
@@ -13,12 +12,16 @@ export const navbarLinks = [
         link: 'services'
     },
     {
-        name: 'Products',
-        link: 'products'
+    name: 'Team',
+    link: 'team'
     },
     {
-        name: 'Team',
-        link: 'team'
+        name: 'Resources',
+        subLinks: [
+            { name: 'Products', link: '/products' },
+            { name: 'Projects', link: '/projects' },
+            { name: 'Blogs', link: '/blogs' },
+            { name: 'Careers', link: '/careers' },
+        ]
     }
-
 ];

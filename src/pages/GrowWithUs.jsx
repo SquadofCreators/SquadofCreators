@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import CustomModal from "../components/CustomModal";
 import PageHeader from "../components/PageHeader"
 import { MdDelete } from "react-icons/md";
@@ -167,7 +168,7 @@ const GrowWithUs = () => {
                     required
                     />
                     <label for="termsAccepted" className="text-gray-700">
-                    I agree to the <a href="/collaboration-terms-and-conditions" className="text-indigo-600 underline">terms and conditions</a>.
+                    I agree to the <Link to="/grow-with-us-tc" className="text-indigo-600 underline">terms and conditions</Link>.
                     </label>
                 </div>
 
