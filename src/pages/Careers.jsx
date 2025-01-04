@@ -10,11 +10,7 @@ import { InternshipData } from '../data/CareersData';
 import CareersModal from '../components/CareersModal';
 
 function Careers() {
-  // Scroll to the top of the page when the component mounts
-  React.useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
+  
   const breadcrumbs = [
     { label: 'Home', link: '/', current: false },
     { label: 'Careers', link: null, current: true },
@@ -23,6 +19,23 @@ function Careers() {
   const [openDetails, setOpenDetails] = React.useState(false);
   const [selectedData, setSelectedData] = React.useState(null);
 
+  // Scroll to the top of the page when the component mounts
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  useEffect(() => {
+    if (openDetails) {
+        document.body.style.overflow = 'hidden';
+    } else {
+        document.body.style.overflow = 'auto';
+    }
+    return () => {
+        document.body.style.overflow = 'auto';
+    };
+  }, [openDetails]);
+
+  
   // Open modal with specific data
   const handleViewDetails = (data) => {
     setSelectedData(data);
@@ -34,6 +47,7 @@ function Careers() {
     setOpenDetails(false);
     setSelectedData(null);
   };
+
 
   return (
     <div className="bg-gray-100 min-h-screen">
@@ -100,14 +114,11 @@ function Careers() {
       </div>
 
       {/* Modal */}
-      {openDetails && selectedData && (
-        <div 
-          className="fixed inset-0 z-50 flex items-center justify-center bg-gray-900 bg-opacity-50"
-          onClick={closeModal}
-        >
-          <CareersModal data={selectedData} />
-        </div>
-      )}
+      {
+        openDetails && selectedData && (
+          <CareersModal data={selectedData} onClose={closeModal} />
+        )
+      }
 
       <Footer />
     </div>

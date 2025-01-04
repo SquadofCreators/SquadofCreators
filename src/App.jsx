@@ -14,6 +14,9 @@ import PrivacyPolicy from './pages/PrivacyPolicy'
 import TermsAndServices from './pages/TermsAndServices'
 import ServicesSingle from './pages/ServicesSingle'
 import GrowWithUsTC from './pages/GrowWithUsTC'
+import Products from './pages/Products'
+import Projects from './pages/Projects'
+import Blogs from './pages/Blogs'
 
 function App() {
 
@@ -45,6 +48,9 @@ function App() {
         <Route path='/terms-of-service' element={<TermsAndServices />} />
         <Route path='/services/:id' element={<ServicesSingle />} />
         <Route path='/grow-with-us-tc' element={<GrowWithUsTC />} />
+        <Route path='/products' element={<Products />} />
+        <Route path='/projects' element={<Projects />} />
+        <Route path='/blogs' element={<Blogs />} />
 
         <Route path='*' element={<NotFound />} />
       </Routes>
