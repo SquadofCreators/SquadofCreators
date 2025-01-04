@@ -1,6 +1,7 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, useLocation} from 'react-router-dom'
+import Loader from './components/Loader'
 import NotFound from './pages/NotFound'
 import Home from './pages/Home'
 import GrowWithUs from './pages/GrowWithUs'
@@ -16,8 +17,22 @@ import GrowWithUsTC from './pages/GrowWithUsTC'
 
 function App() {
 
+  const [isLoading, setIsLoading] = useState(false);
+  const location = useLocation();
+
+  useEffect(() => {
+    setIsLoading(true);
+
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 1000); 
+
+    return () => clearTimeout(timer);
+  }, [location]);
+
   return (
     <>
+      {isLoading && <Loader />}
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/grow-with-us' element={<GrowWithUs />} />
