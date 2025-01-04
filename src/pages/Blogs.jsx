@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { GoBellFill } from "react-icons/go";
 
 function Blogs() {
@@ -25,12 +26,12 @@ function Blogs() {
             </form>
             
             <div className="mt-8">
-                <a 
+                <Link 
                     href="/" 
                     className="inline-block px-6 py-3 bg-white text-blue-600 rounded-lg hover:bg-gray-200 transition font-semibold"
                 >
                     Back to Home
-                </a>
+                </Link>
             </div>
         </div>
 
