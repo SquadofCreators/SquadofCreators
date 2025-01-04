@@ -16,6 +16,9 @@
 .slick-slider button::before{
     @apply text-indigo-600
 }
+.slick-slider .slick-arrow{
+    @apply mt-0
+}
 .slick-slider .slick-dots{
     @apply -bottom-10
 }

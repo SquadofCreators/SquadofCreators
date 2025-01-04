@@ -1,4 +1,4 @@
 # Squad of Creators
 
 ## Latest Update
-  - Note: Update v1.8
+  - Note: Update v1.9
