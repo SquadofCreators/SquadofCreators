@@ -27,7 +27,7 @@ function Products() {
             
             <div className="mt-8">
                 <Link 
-                    href="/" 
+                    to="/"
                     className="inline-block px-6 py-3 bg-white text-blue-600 rounded-lg hover:bg-gray-200 transition font-semibold"
                 >
                     Back to Home
